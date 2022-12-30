@@ -1,6 +1,6 @@
 [user]
-  name = Emmanuel
-  email = 1090777+emmanuelstroem@users.noreply.github.com
+  name = Emmanuel Nyachoke
+  email = achachiez@gmail.com
   signingkey = DEAD4079848B519D
 [core]
   editor = code --wait
@@ -9,11 +9,11 @@
   # Don't consider trailing space change as a cause for merge conflicts
   whitespace = -trailing-space
 [commit]
-	gpgsign = true
+	gpgsign = false
 [gpg]
 	program = gpg
 [format]
-	signOff = true
+	signOff = false
 [color]
   branch = auto
   diff = auto
