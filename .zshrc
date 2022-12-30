@@ -178,12 +178,12 @@ zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}
 # Environment Variables
 ################################################################################
 # The next line adds PATH for the OpenJDK.
-export JAVA_HOME="/usr/local/opt/openjdk"
-export PATH="$JAVA_HOME/bin:$PATH"
+#export JAVA_HOME="/usr/local/opt/openjdk"
+#export PATH="$JAVA_HOME/bin:$PATH"
 
 # The next line adds PATH for the Android SDK.
-export PATH="$HOME/Library/Android/sdk/tools:$PATH"
+#export PATH="$HOME/Library/Android/sdk/tools:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+#source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+#source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
